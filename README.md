@@ -1,14 +1,42 @@
-# W-drücken Bot
-W-drücken Bot, verwenden auf eigene Gefahr!
+# afkbot
 
-Download [hier](https://github.com/tr1rd/afkbot/releases)
+AFK bot for GTA V. Holds `W` for 60 seconds, releases for 60 seconds, repeats - keeping your character moving so you don't get kicked. Automatically pauses input when GTA V isn't running.
 
-## Erklärung
-### Verwendung
-1. Die .exe Datei [hier](https://github.com/tr1rd/afkbot/releases) herunterladen
-2. Doppelklick auf die Datei
-3. GTA starten bzw. GTA fokussieren
-4. F8 drücken um den Bot zu aktivieren
+## Requirements
 
-### Werde ich dafür gebannt?
-¯\_(ツ)_/¯
+- Python 3.8+
+
+```
+pip install psutil keyboard pydirectinput rich
+```
+
+## Usage
+
+```
+python afk-bot.py
+```
+
+Then switch to your GTA window and press `F8` to start.
+
+## Controls
+
+| Key | Action |
+|-----|--------|
+| `F8` | Toggle bot on / off |
+| `Ctrl+C` | Quit |
+
+## Behaviour
+
+- Holds `W` for 60 seconds → releases for 60 seconds → repeats
+- Automatically detects whether GTA V is running and holds/releases accordingly
+- Cycle counter and live countdown shown in the terminal
+
+## Will I get banned?
+
+¯\\\_(ツ)\_/¯ - use at your own risk.
+
+## Notes
+
+- `keyboard` and `pydirectinput` may be flagged by antivirus - false positive
+- Run as administrator if keypresses aren't registering in-game
+- Tested on Windows 10 / 11 with Python 3.11
