@@ -1,6 +1,6 @@
 # afkbot
 
-AFK bot for GTA V. Holds `W` for 60 seconds, releases for 60 seconds, repeats - keeping your character moving so you don't get kicked. Automatically pauses input when GTA V isn't running.
+AFK bot for GTA V (Grand) RP Servers. Holds `W` for 60 seconds, releases for 60 seconds, repeats - keeping your character moving so you don't get kicked. Automatically pauses input when GTA V isn't running.
 
 ## Requirements
 
